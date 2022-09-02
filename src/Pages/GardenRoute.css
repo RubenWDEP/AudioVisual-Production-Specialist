@@ -1,0 +1,51 @@
+section.gardenRoute {
+    display: flex;
+    flex-direction: column;
+}
+
+section.gardenRoute a {
+    color: red;
+}
+
+section.gardenRoute p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.gardenRoute p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.gardenRoute > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+section.gardenRoute div.showPictures {
+    width: 50%;
+    align-self: center;
+}
+section.gardenRoute div img {
+    width: 100%;
+}
+section.gardenRoute div p {
+    font-size: x-small;
+}
+
+#gardenRouteAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.gardenRoute h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+iframe.gardenRoute {
+    align-self: center;
+    margin-bottom: 3em;
+}
+
+

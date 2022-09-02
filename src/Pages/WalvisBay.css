@@ -1,0 +1,35 @@
+section.walvisBay {
+    display: flex;
+    flex-direction: column;
+}
+
+section.walvisBay a {
+    color: red;
+}
+
+section.walvisBay p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.walvisBay p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.walvisBay > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#walvisBayAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.walvisBay h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+

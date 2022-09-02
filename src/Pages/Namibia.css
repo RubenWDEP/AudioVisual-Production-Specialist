@@ -1,0 +1,9 @@
+section.namibiaMapSection {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe.namibiaMap {
+    align-self: center;
+    margin-bottom: 3em;
+}

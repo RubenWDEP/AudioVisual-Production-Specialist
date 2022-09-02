@@ -1,0 +1,33 @@
+section.whatido  {
+    padding-left: 2em;
+    
+}
+
+section.whatido div {
+    width: 18em;
+    
+}
+
+section.whatido img {
+    width: 15em;
+    margin-right: 1em;
+}
+
+section.whatido iframe {
+    margin-right: 1em;
+}
+
+section.whatido section article {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 1.5em 0;
+    align-items: center;
+}
+
+section.whatido section h3 {
+    margin: 2.5em 0 1em 0 ;
+}
+
+ul.proyecciones, ul.reseñas {
+    margin: 0 0 2em 3em;
+}

@@ -1,0 +1,37 @@
+section.travelCheap {
+    display: flex;
+    flex-direction: column;
+}
+
+section.travelCheap a {
+    color: red;
+}
+
+section.travelCheap p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.travelCheap p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.travelCheap h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section.travelCheap span {
+    font-style: italic;
+}
+
+section.travelCheap h4 {
+    margin: 1em 2em 1em 2em; 
+}
+
+
+
+
+
+

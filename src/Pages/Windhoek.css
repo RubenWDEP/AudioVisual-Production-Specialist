@@ -1,0 +1,35 @@
+section.windhoek {
+    display: flex;
+    flex-direction: column;
+}
+
+section.windhoek a {
+    color: red;
+}
+
+section.windhoek p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.windhoek p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.windhoek > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#windhoekAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.windhoek h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+

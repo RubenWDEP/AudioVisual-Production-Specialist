@@ -1,0 +1,18 @@
+section.routePlan {
+    align-self: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.routePlan h3 {
+    margin: 0 0 0.5em 0;
+    
+}
+
+section.routePlan p {
+    margin-bottom: 1em;
+}
+
+section.routePlan p:last-of-type {
+    margin-bottom: 3em;
+}

@@ -1,0 +1,10 @@
+section.southAfricaMapSectionLevel2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+iframe.southAfricaMapSectionLevel2 {
+    align-self: center;
+    margin-bottom: 3em;
+}

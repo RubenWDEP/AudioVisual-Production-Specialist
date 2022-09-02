@@ -1,0 +1,46 @@
+section.kasane {
+    display: flex;
+    flex-direction: column;
+}
+
+section.kasane a {
+    color: red;
+}
+
+section.kasane p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.kasane p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.kasane > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+section.kasane div.showPicturesKasane {
+    width: 50%;
+    align-self: center;
+}
+section.kasane div img {
+    width: 100%;
+}
+section.kasane div p {
+    font-size: x-small;
+}
+
+#kasaneAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.kasane h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+

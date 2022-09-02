@@ -1,0 +1,106 @@
+header.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+header.main-header img {
+    max-width: 720px;
+    max-height: 284px;
+    margin: 2em 0;
+}
+
+header.main-header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    border-top: solid 1px rgb(202, 202, 202);
+    border-bottom: solid 1px rgb(202, 202, 202);
+    margin-bottom: 2.5em;
+}
+
+header.main-header nav ul > li {
+    list-style: none;
+    
+}
+
+ul.mainMenu {
+    display: flex;
+    flex-direction: row;
+}
+
+ul.mainMenu > li {
+    padding: 0.5em 2.5em;
+}
+
+ul.mainMenu > li:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+ul.menulistLevel1{
+    cursor: pointer;
+}
+ul.menulistLevel1{
+    display: none;
+    position: absolute;
+    background-color: rgb(232, 232, 232);
+    width: fit-content;
+    top: 24em;
+    margin-left: -4em;
+}
+
+ul.menulistLevel1 > li, ul.menulistLevel2 > li, ul.menulistLevel3 > li{
+    padding: 0 0.5em 0 0.5em;   
+}
+
+li.menulistLevelContainer:hover ul.menulistLevel1{
+    display: block;
+}
+
+ul.menulistLevel1 > li:hover {
+    background-color: rgb(249, 249, 249);
+}
+
+ul.menulistLevel2 {
+    display: none;
+}
+
+li.menulistLevel2Container:hover ul.menulistLevel2{
+    background-color: rgb(249, 249, 249);
+    width: max-content;
+    display: block;
+    position: absolute;
+    left: 12em;
+    top: 1em;
+}
+
+ul.menulistLevel2 > li:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+ul.menulistLevel3 {
+    display: none;
+}
+
+li.menulistLevel3Container:hover ul.menulistLevel3{
+    background-color: rgb(232, 232, 232);
+    width: 10em;
+    display: block;
+    position: absolute;
+    left: 6em;
+    margin-top:-1.5em;
+}
+
+ul.menulistLevel3 > li:hover {
+    background-color: rgb(249, 249, 249);
+}
+
+a:visited, a {
+    color: black;
+}
+
+

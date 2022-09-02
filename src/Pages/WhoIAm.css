@@ -1,0 +1,15 @@
+section.whoiam img {
+    width: 20em;
+    float: left;
+    margin: 0 0.5em 0 2em;  
+}
+
+section.whoiam p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.whoiam p:last-child {
+ margin-bottom: 5em;   
+}

@@ -1,0 +1,9 @@
+section.summaryVideoMapSection {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe.summaryVideoMap {
+    align-self: center;
+    margin-bottom: 3em;
+}

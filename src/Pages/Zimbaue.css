@@ -1,0 +1,9 @@
+section.zimbaueMapSection {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe.zimbaueMap {
+    align-self: center;
+    margin-bottom: 3em;
+}

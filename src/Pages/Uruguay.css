@@ -1,0 +1,57 @@
+section.uruguay {
+    display: flex;
+    flex-direction: column;
+}
+
+section.uruguay a {
+    color: red;
+}
+
+section.uruguay p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.uruguay p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.uruguay > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#uruguayAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.uruguay h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section.uruguay iframe {
+    align-self: center;
+    margin-bottom: 3em;
+}
+
+section.uruguay figure {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+section.uruguay figure img {
+    width: 100%;
+    margin: 1em 0 0 0;
+}
+section.uruguay figure figcaption {
+    font-size: smaller;
+    text-align: center;
+}
+
+
+
+
+

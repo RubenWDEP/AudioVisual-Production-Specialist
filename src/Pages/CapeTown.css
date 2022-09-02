@@ -1,0 +1,66 @@
+section.capeTown {
+    display: flex;
+    flex-direction: column;
+}
+
+section.capeTown a {
+    color: red;
+}
+
+section.capeTown p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.capeTown p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.capeTown ul {
+    margin-left: 4.5em;
+    
+}
+section.capeTown ul li {
+    margin: 0.5em 0;
+    
+}
+section.capeTown ul li:last-child {
+    margin-bottom: 1.5em;
+}
+
+section.capeTown >img, section.capeTown figure {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+section.capeTown figure img {
+    width: 100%;
+    margin: 1em 0 0 0;
+}
+section.capeTown figure figcaption {
+    font-size: smaller;
+    text-align: center;
+}
+
+section.capeTown div.showPictures {
+    width: 50%;
+    align-self: center;
+}
+section.capeTown div img {
+    width: 100%;
+}
+section.capeTown div p {
+    font-size: x-small;
+}
+
+#anchor {
+    margin: 0 0 2em 2em;
+}
+
+section.capeTown h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+

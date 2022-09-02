@@ -1,0 +1,55 @@
+section.southAfricaArrangement {
+    display: flex;
+    flex-direction: column;
+}
+
+section.southAfricaArrangement a {
+    color: red;
+}
+
+section.southAfricaArrangement p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.southAfricaArrangement p:last-child {
+    margin: 0 2em 3em 2em;
+}
+
+section.southAfricaArrangement ul {
+    margin-left: 4.5em;
+    
+}
+section.southAfricaArrangement ul li {
+    margin: 0.5em 0;
+    
+}
+section.southAfricaArrangement ul li:last-child {
+    margin-bottom: 1.5em;
+}
+
+section.southAfricaArrangement >img, section.southAfricaArrangement figure {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+section.southAfricaArrangement figure img {
+    width: 100%;
+    margin: 1em 0 0 0;
+}
+section.southAfricaArrangement figure figcaption {
+    font-size: smaller;
+    text-align: center;
+}
+
+.southAfricaListExample {
+    font-style: italic;
+    margin-left: 3em;
+}
+#southAfricaListExample{
+    margin: 1em 5em 1em 6em;
+    text-align: justify;
+    text-justify: distribute;
+}
+

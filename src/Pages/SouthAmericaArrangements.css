@@ -1,0 +1,17 @@
+section.southAmericaArrangements a {
+    color: red;
+}
+
+section.southAmericaArrangements p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.southAmericaArrangements p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+#otjwarongoAnchor {
+    margin: 0 0 2em 2em;
+}

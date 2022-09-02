@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+main.App {
+    margin: 0 auto;
+    width: 90vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr 4em;
+    grid-template-areas: 
+    "Header Header"
+    "Section Aside"
+    "Footer Footer"
+    ;
+}
+
+main.App header {
+    grid-area: Header;
+
+}
+main.App section {
+    grid-area: Section;
+    
+}
+
+main.App footer {
+    grid-area: Footer;
+}
+
+
+section {
+    background-color: white;
+    
+}
+
+section h2 {
+    text-align: center;
+    margin: 0 0 2em 0;
+}

@@ -1,0 +1,9 @@
+section.botsuanaMapSection {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe.botsuanaMap {
+    align-self: center;
+    margin-bottom: 3em;
+}

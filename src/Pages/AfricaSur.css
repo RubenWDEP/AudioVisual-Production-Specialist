@@ -1,0 +1,14 @@
+section.southAfricaRouteMapSection {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+iframe.southAfricaRouteMap {
+    align-self: center;
+    margin-bottom: 3em;
+}
+
+iframe.southAfricaRoute {
+    align-self: center;
+}

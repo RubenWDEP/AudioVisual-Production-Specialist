@@ -1,0 +1,45 @@
+section.addo {
+    display: flex;
+    flex-direction: column;
+}
+
+section.addo a {
+    color: red;
+}
+
+section.addo p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.addo p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.addo > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+section.addo div.showPictures {
+    width: 50%;
+    align-self: center;
+}
+section.addo div img {
+    width: 100%;
+}
+section.addo div p {
+    font-size: x-small;
+}
+
+#addoAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.addo h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+

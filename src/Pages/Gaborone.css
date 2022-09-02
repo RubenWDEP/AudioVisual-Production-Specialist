@@ -1,0 +1,46 @@
+section.gaborone {
+    display: flex;
+    flex-direction: column;
+}
+
+section.gaborone a {
+    color: red;
+}
+
+section.gaborone p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.gaborone p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.gaborone > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+section.gaborone div.showPicturesGaborone {
+    width: 50%;
+    align-self: center;
+}
+section.gaborone div img {
+    width: 100%;
+}
+section.gaborone div p {
+    font-size: x-small;
+}
+
+#gaboroneAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.gaborone h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+

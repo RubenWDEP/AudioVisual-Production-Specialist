@@ -1,0 +1,17 @@
+section.PhotosSection img {
+    width: 100%;
+ }
+
+ .row {
+    display: flex;
+    padding: 3px;
+ }
+
+ .column {
+    flex: 25%;
+    padding: 3px;
+ }
+
+ .column img {
+    margin-top: 3px;
+ }

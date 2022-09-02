@@ -1,0 +1,32 @@
+section.okavangoGrassLand {
+    display: flex;
+    flex-direction: column;
+}
+
+section.okavangoGrassLand p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.okavangoGrassLand p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.okavangoGrassLand > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#okavangoAnchor {
+    margin: 0 0 2em 2em;
+    color: red;
+}
+
+section.okavangoGrassLand h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+

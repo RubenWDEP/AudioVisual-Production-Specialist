@@ -1,0 +1,57 @@
+section.paraguay {
+    display: flex;
+    flex-direction: column;
+}
+
+section.paraguay a {
+    color: red;
+}
+
+section.paraguay p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.paraguay p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.paraguay > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#paraguayAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.paraguay h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section.paraguay iframe {
+    align-self: center;
+    margin-bottom: 3em;
+}
+
+section.paraguay figure {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+section.paraguay figure img {
+    width: 100%;
+    margin: 1em 0 0 0;
+}
+section.paraguay figure figcaption {
+    font-size: smaller;
+    text-align: center;
+}
+
+
+
+
+

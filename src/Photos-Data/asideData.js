@@ -1,0 +1,1 @@
+export const asideData = ["https://laemancipaciondelvertigo.files.wordpress.com/2022/04/dia-del-libro-2022-png__-1.png", "themother.jpg", "themother.jpg", "themother.jpg", "themother.jpg", "themother.jpg"];

@@ -1,0 +1,57 @@
+section.argentina {
+    display: flex;
+    flex-direction: column;
+}
+
+section.argentina a {
+    color: red;
+}
+
+section.argentina p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.argentina p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.argentina > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#argentinaAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.argentina h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section.argentina iframe {
+    align-self: center;
+    margin-bottom: 3em;
+}
+
+section.argentina figure {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+section.argentina figure img {
+    width: 100%;
+    margin: 1em 0 0 0;
+}
+section.argentina figure figcaption {
+    font-size: smaller;
+    text-align: center;
+}
+
+
+
+
+

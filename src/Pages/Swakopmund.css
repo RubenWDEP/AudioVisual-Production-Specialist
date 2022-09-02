@@ -1,0 +1,35 @@
+section.swakopmund {
+    display: flex;
+    flex-direction: column;
+}
+
+section.swakopmund a {
+    color: red;
+}
+
+section.swakopmund p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.swakopmund p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.swakopmund > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#swakopmundAnchor {
+    margin: 0 0 2em 2em;
+}
+
+section.swakopmund h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+

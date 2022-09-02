@@ -1,0 +1,35 @@
+section.victoriaWaterfalls {
+    display: flex;
+    flex-direction: column;
+}
+
+section.victoriaWaterfalls a {
+    color: red;
+}
+
+section.victoriaWaterfalls p {
+    margin: 0 2em 1em 2em; 
+    text-align: justify;
+    text-justify: distribute;
+}
+
+section.victoriaWaterfalls p:last-of-type {
+    margin: 0 2em 3em 2em;
+}
+
+section.victoriaWaterfalls > img {
+    width: 50%;
+    margin: 1em 0 2em 0;
+    align-self: center;
+}
+
+#victoriaWaterfallsGalleryBelow {
+    margin: 0 0 2em 2em;
+}
+
+section.victoriaWaterfalls h3:last-of-type {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
