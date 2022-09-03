@@ -1,6 +1,6 @@
 # AudioVisual-Production-Specialist
 
-Update of an Audiovisual Production Specialist website using ![React.JS](https://github.com/RubenWDEP/AudioVisual-Production-Specialist-Website-Frontend/blob/main/src/images/reactjs-ar21.png?raw=true)
+Update of an Audiovisual Production Specialist website using React.JS, Javascript & CSS.
 
 First of all, I must state all multimedia content belongs to Maximiliano Porta. We are working toghether in order to improve his website.
 
