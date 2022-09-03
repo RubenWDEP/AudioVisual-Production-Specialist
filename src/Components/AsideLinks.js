@@ -10,7 +10,7 @@ function AsideLinks() {
             <ul>
                 {asideData.map((result, index) => {
                     return <li key={index}>
-                        <a href='' target="_blank"><img className='linkInstagram' src={result} alt='Instagram references' /></a>
+                        <a href={result.url} target="_blank" rel='noreferrer'><img className='linkInstagram' src={result.img} alt='Instagram references' /></a>
                     </li>
                 })}
             </ul>
