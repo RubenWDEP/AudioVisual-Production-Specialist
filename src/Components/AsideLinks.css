@@ -30,3 +30,13 @@ aside ul {
 img.linkInstagram {
     width: 6em;
 }
+
+@media (max-width: 425px){
+    aside ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin: 0 1.5em;
+    }
+}

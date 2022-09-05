@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import headerImage from '../LandingPage-images/TarjetaVisitaCaraA.jpg';
-import { Outlet } from "react-router-dom";
 import './Header.css';
 
 

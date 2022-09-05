@@ -7,21 +7,10 @@ header.main-header {
     
 }
 
-header.main-header img {
+header.main-header  img {
     max-width: 720px;
     max-height: 284px;
     margin: 2em 0;
-}
-
-header.main-header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    width: 100%;
-    border-top: solid 1px rgb(202, 202, 202);
-    border-bottom: solid 1px rgb(202, 202, 202);
-    margin-bottom: 2.5em;
 }
 
 header.main-header nav ul > li {

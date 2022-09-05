@@ -47,3 +47,28 @@ section h2 {
     text-align: center;
     margin: 0 0 2em 0;
 }
+
+@media (max-width: 425px){
+    main.App {
+        margin: 0 auto;
+        width: 90vw;
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto 1fr auto 4em;
+        grid-template-areas: 
+        "Header"
+        "Section"
+        "Aside"
+        "Footer"
+        ;
+    }
+    main.App header.smallScreenHeader {
+        grid-area: Header;
+    
+    }
+    main.App aside.asideInstagramLinks {
+        grid-area: Aside;
+
+    }
+}

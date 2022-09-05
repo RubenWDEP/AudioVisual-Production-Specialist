@@ -5,7 +5,7 @@ import { asideData } from '../Photos-Data/asideData.js';
 
 function AsideLinks() {
     return (
-        <aside>
+        <aside className='asideInstagramLinks'>
             <h4>Instagram</h4>
             <ul>
                 {asideData.map((result, index) => {

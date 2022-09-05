@@ -1,0 +1,58 @@
+
+
+header.smallScreenHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;   
+}
+header.smallScreenHeader li {
+    list-style: none;   
+}
+
+
+header.smallScreenHeader > img {
+    max-width: 80%;
+    margin: 2em 0;
+    align-self: center;
+}
+
+header.smallScreenHeader nav {
+    width: 100%;
+    border-top: solid 1px rgb(202, 202, 202);
+    border-bottom: solid 1px rgb(202, 202, 202);
+    margin-bottom: 2.5em;
+    position:relative;
+}
+
+header.smallScreenHeader nav > img {
+    width: 4.5em;
+    margin: 1em 0 1em 1em;
+}
+
+.arrowMenu {
+    width: 15px;
+    align-self: flex-end;
+}
+
+header.smallScreenHeader nav ul.smallScreenHeaderMainMenu {
+    position:absolute;
+    z-index: 10;
+}
+header.smallScreenHeader nav ul.smallScreenHeaderMainMenu > li {
+    background-color: whitesmoke;
+    width: 13em;
+    padding: 0.25em;
+}
+
+header.smallScreenHeader nav ul.smallScreenHeaderMenulistLevel1 li {
+    padding: 0.25em;
+}
+header.smallScreenHeader nav ul.smallScreenHeaderMenulistLevel2 li {
+    padding: 0.25em;
+}
+
+header.smallScreenHeader nav ul.smallScreenHeaderMenulistLevel1 {
+    /* display: none; */
+}
+

@@ -43,11 +43,12 @@ import Germany from './Pages/Germany';
 import Netherlands from './Pages/Netherlands';
 import Italy from './Pages/Italy';
 import Spain from './Pages/Spain';
+import ResponsiveHeader from './Components/ResponsiveHeader';
 
 function App() {
   return (
     <main className="App">
-      <Header />
+      <ResponsiveHeader />
       <Routes>
         <Route path='/' element={<WhoIAm />} />
         <Route path='/whatido' element={<WhatIDo />} />
