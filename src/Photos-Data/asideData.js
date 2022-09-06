@@ -1,3 +1,6 @@
+import photoLink from '../images/PHOTO-2022-09-05-01-06-37.jpg';
+
+
 export const asideData = [
     {
         url: "https://www.instagram.com/p/CcsREJIj2uk/?utm_source=ig_web_copy_link",
@@ -17,7 +20,7 @@ export const asideData = [
     },
     {
         url: "https://www.instagram.com/p/CXf_aosDOv3/?utm_source=ig_web_copy_link",
-        img: ""
+        img: photoLink
     },
     {
         url: "https://www.instagram.com/p/CWnO_Y0Dneh/?utm_source=ig_web_copy_link",
