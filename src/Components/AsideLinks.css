@@ -6,7 +6,7 @@ aside {
 aside.asideInstagramLinks h4 {
     text-align: center;
     background-color: lightgrey;
-    width: 75%;
+    width: 70%;
     margin: 1em auto;
     padding: 0.5em;
     position: sticky;
@@ -26,6 +26,7 @@ aside ul {
     margin: 0 1em;
     position: sticky;
     top: 4.5em;
+    
 }
 
 img.linkInstagram {
@@ -60,6 +61,6 @@ img.linkInstagram {
     }
     aside.asideInstagramLinks h4 {
         position: static;
+        width: 80%;
     }
-    
 }
