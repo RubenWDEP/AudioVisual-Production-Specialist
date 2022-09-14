@@ -13,6 +13,14 @@ header.main-header  img {
     margin: 2em 0;
 }
 
+header.main-header nav {
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 2.5em;
+    z-index: 1;
+    
+}
 header.main-header nav ul > li {
     list-style: none;
     
@@ -21,6 +29,7 @@ header.main-header nav ul > li {
 ul.mainMenu {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
 }
 

@@ -3,7 +3,6 @@ import { data } from '../Photos-Data/whatIDoData';
 
 const images = require.context('../Photos-Data/Whatido-images', true);
 
-
 function WhatIDo() {
     console.log(data.films)
     return (

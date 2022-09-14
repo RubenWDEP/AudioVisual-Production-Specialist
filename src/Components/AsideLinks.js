@@ -1,7 +1,6 @@
 import './AsideLinks.css';
 import { asideData } from '../Photos-Data/asideData.js';
 
-// const asideImages = require.context('../Whatido-images', true);
 
 function AsideLinks() {
     return (
