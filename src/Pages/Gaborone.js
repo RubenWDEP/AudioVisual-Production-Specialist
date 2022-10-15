@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { gaboronePhotos } from '../Photos-Data/Photos';
 import './Gaborone.css';
@@ -27,6 +28,7 @@ function Gaborone() {
             <p>Tras casi dos semanas de tranquilidad y reposo, salgo hacia el norte, Maun, donde me espera el <Link to='/mytrips/southafrica/botsuana/okavangograssland'>Delta del Okavango</Link>.</p>
             <h3 id='gaboroneGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={gaboronePhotos} />
+            <Comments />
         </section>
     )
 }

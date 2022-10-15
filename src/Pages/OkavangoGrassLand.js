@@ -1,3 +1,4 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { okavangoGrassLandPhotos } from '../Photos-Data/Photos';
 import './OkavangoGrassLand.css';
@@ -40,6 +41,7 @@ function OkavangoGrassLand() {
 
             <h3 id='okavangoGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={okavangoGrassLandPhotos} />
+            <Comments />
         </section>
     )
 }

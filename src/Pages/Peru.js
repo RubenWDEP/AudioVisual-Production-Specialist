@@ -1,3 +1,4 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { peruPhotos } from '../Photos-Data/Photos';
 import './Peru.css';
@@ -79,6 +80,7 @@ function Peru() {
 
             <h3 id='peruGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={peruPhotos} />
+            <Comments />
         </section>
     )
 }

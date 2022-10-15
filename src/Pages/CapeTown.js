@@ -1,6 +1,7 @@
 import GalleryComponent from '../Components/GalleryComponent';
 import './CapeTown.css';
 import { capeTownPhotos } from '../Photos-Data/Photos'
+import Comments from '../Components/Comments';
 
 function CapeTown() {
     console.log(capeTownPhotos.length)
@@ -98,6 +99,7 @@ function CapeTown() {
             <p>Para hacernos una idea de la grandeza de este sitio recordamos que en el planeta hay seis reinos florales reconocidos: Antártico, Australasiano, Boreal, Neotrópico, Paleotrópico y el de este Cabo. Sin duda, un lugar adecuado para despedirse de Cape Town.</p>
             <h3 id='galleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={capeTownPhotos} />
+            <Comments />
         </section>
 
     )

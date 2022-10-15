@@ -44,6 +44,7 @@ import Netherlands from './Pages/Netherlands';
 import Italy from './Pages/Italy';
 import Spain from './Pages/Spain';
 import ResponsiveHeader from './Components/ResponsiveHeader';
+import Comments from './Components/Comments';
 
 function App() {
   return (

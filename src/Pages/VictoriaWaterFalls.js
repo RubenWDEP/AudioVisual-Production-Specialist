@@ -1,3 +1,4 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { waterFallPhotos } from '../Photos-Data/Photos';
 import './VictoriaWaterFalls.css';
@@ -23,6 +24,7 @@ function VictoriaWaterFalls() {
             {/* <iframe></iframe> */}
             <h3 id='victoriaWaterfallsGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={waterFallPhotos} />
+            <Comments />
 
         </section>
     )

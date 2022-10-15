@@ -2,6 +2,7 @@ import GalleryComponent from '../Components/GalleryComponent';
 import { kasanePhotos } from '../Photos-Data/Photos';
 import './Kasane.css';
 import { Link } from 'react-router-dom';
+import Comments from '../Components/Comments';
 
 function Kasane() {
     return (
@@ -28,7 +29,7 @@ function Kasane() {
             <p>También conozco a un anciano alemán ahora residente y enamorado Botsuana, el cual me ayuda con el cambio a dólares para mi próximo viaje a <Link to='/mytrips/southafrica/zimbaue/victoriawaterfalls'>Cataratas Victoria</Link> en Zimbabwe, aunque al final no era obligatorio pagar en esta moneda.</p>
             <h3 id='kasaneGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={kasanePhotos} />
-
+            <Comments />
         </section>
     )
 }

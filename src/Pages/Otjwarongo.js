@@ -1,3 +1,4 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { otjwarongoPhotos } from '../Photos-Data/Photos';
 import './Otjwarongo.css';
@@ -21,6 +22,7 @@ function Otjwarongo() {
 
             <h3 id='otjwarongoGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={otjwarongoPhotos} />
+            <Comments />
 
 
         </section>

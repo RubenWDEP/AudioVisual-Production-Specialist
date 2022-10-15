@@ -1,3 +1,4 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { ecuadorPhotos } from '../Photos-Data/Photos';
 import './Ecuador.css';
@@ -70,6 +71,7 @@ function Ecuador() {
 
             <h3 id='ecuadorGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={ecuadorPhotos} />
+            <Comments />
 
         </section>
     )

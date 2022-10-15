@@ -1,0 +1,30 @@
+section.comments  {
+    display: flex;
+    flex-direction: column;
+}
+
+section.comments label {
+    margin-bottom: 1em;
+}
+
+section.comments input {
+    margin-bottom: 1em;
+}
+
+section.comments textarea {
+    width: 100%;
+    margin: 0 auto 2em auto;
+}
+
+section.comments h4 {
+    margin: 0  0 1.5em 10%;
+}
+
+h3.postCommentSection {
+    align-self: flex-start;
+    margin: 3em 0 2em 10%;
+}
+
+p.noComments {
+    align-self: center;
+}
