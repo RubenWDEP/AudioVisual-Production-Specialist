@@ -4,6 +4,8 @@ import { okavangoGrassLandPhotos } from '../Photos-Data/Photos';
 import './OkavangoGrassLand.css';
 
 function OkavangoGrassLand() {
+    const sectionCommentName = "okavangoGrassLand";
+
     return (
         <section className='okavangoGrassLand'>
             <h2>Delta del Okavango</h2>
@@ -41,7 +43,7 @@ function OkavangoGrassLand() {
 
             <h3 id='okavangoGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={okavangoGrassLandPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

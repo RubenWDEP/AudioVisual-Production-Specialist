@@ -4,6 +4,7 @@ import { uruguayPhotos } from '../Photos-Data/Photos';
 import './Uruguay.css';
 
 function Uruguay() {
+    const sectionCommentName = "uruguay";
     return (
         <section className='uruguay'>
             <h2>Uruguay</h2>
@@ -37,7 +38,7 @@ function Uruguay() {
             <p>En esta ruta de cinco días hice hasta seis veces autostop, donde en cinco de ellas apenas tuve que esperar diez minutos para que me recogieran. Siempre gente muy afable y con afán de guía turístico. He hecho amistades con buenas conversaciones entre risas y siempre compartiendo todo lo posible. El primer país de mi ruta me ha dejado un muy buen sabor de boca.</p>
             <h3 id='uruguayGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={uruguayPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

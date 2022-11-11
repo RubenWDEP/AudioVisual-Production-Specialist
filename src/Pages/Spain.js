@@ -4,11 +4,12 @@ import Comments from '../Components/Comments';
 
 
 function Spain() {
+    const sectionCommentName = "spain";
     return (
         <section className='spain'>
             <h2>España</h2>
             <GalleryComponent arrayPhotos={spainPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

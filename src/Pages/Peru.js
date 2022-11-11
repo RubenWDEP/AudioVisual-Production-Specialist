@@ -4,6 +4,7 @@ import { peruPhotos } from '../Photos-Data/Photos';
 import './Peru.css';
 
 function Peru() {
+    const sectionCommentName = "peru";
     return (
         <section className='peru'>
             <h2>Perú</h2>
@@ -80,7 +81,7 @@ function Peru() {
 
             <h3 id='peruGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={peruPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

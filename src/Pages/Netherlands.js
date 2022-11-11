@@ -4,11 +4,12 @@ import { netherlandsPhotos } from "../Photos-Data/Photos";
 
 
 function Netherlands() {
+    const sectionCommentName = "netherlands";
     return (
         <section className='netherlands'>
             <h2>Holanda</h2>
             <GalleryComponent arrayPhotos={netherlandsPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

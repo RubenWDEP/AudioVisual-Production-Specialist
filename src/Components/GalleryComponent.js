@@ -13,22 +13,22 @@ function GalleryComponent({ arrayPhotos }) {
             <div className='row'>
                 <div className='column'>
                     {PhotosSlice1.map((result, index) => {
-                        return <img className='PhotosGalery' key={index} src={result} alt='Location' loading="lazy" />
+                        return <img className='PhotosGalery' key={index} src={result} alt='Location' />
                     })}
                 </div>
                 <div className='column'>
                     {PhotosSlice2.map((result, index) => {
-                        return <img className='PhotosGalery' key={index} src={result} alt='Mauritania' loading="lazy" />
+                        return <img className='PhotosGalery' key={index} src={result} alt='Location' />
                     })}
                 </div>
                 <div className='column'>
                     {PhotosSlice3.map((result, index) => {
-                        return <img className='PhotosGalery' key={index} src={result} alt='Mauritania' loading="lazy" />
+                        return <img className='PhotosGalery' key={index} src={result} alt='Location' />
                     })}
                 </div>
                 <div className='column'>
                     {PhotosSlice4.map((result, index) => {
-                        return <img className='PhotosGalery' key={index} src={result} alt='Mauritania' loading="lazy" />
+                        return <img className='PhotosGalery' key={index} src={result} alt='Location' />
                     })}
                 </div>
             </div>

@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { addoPhotos } from '../Photos-Data/Photos';
 import './Addo.css';
 
 function Addo() {
+    const sectionCommentName = "addo";
+
     return (
         <section className='addo'>
             <h2>Safari Parque Nacional de ADDO</h2>
@@ -28,7 +31,7 @@ function Addo() {
             <img src='https://laemancipaciondelvertigo.files.wordpress.com/2018/07/addo-national-park-6.jpg' alt='Addo National Park (6)' />
             <h3 id='addoGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={addoPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

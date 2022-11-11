@@ -4,6 +4,7 @@ import { grootFonteinPhotos } from '../Photos-Data/Photos';
 import './GrootFontein.css';
 
 function GrootFontein() {
+    const sectionCommentName = "grootFontein";
     return (
         <section className='grootFontein'>
             <h2>Ciudad del Cabo</h2>
@@ -22,7 +23,7 @@ function GrootFontein() {
 
             <h3 id='grootFonteinGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={grootFonteinPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

@@ -20,6 +20,39 @@ section.comments h4 {
     margin: 0  0 1.5em 10%;
 }
 
+section.comments ul {
+    margin: 0 0 4em 10%;
+}
+
+section.comments ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+section.comments ul li div {
+    display: flex;
+    flex-direction: row;
+}
+section.comments ul li div img {
+    max-width: 2em;
+}
+
+#userNameComment{
+    margin: 0 0 0 1em;
+    font-size: initial;
+}
+
+#userComment{
+    margin: 0 0 1em 0;
+    font-style: italic;
+}
+
+#userCommentspan  {
+    margin: 0;
+}
+
+
 h3.postCommentSection {
     align-self: flex-start;
     margin: 3em 0 2em 10%;
@@ -28,3 +61,5 @@ h3.postCommentSection {
 p.noComments {
     align-self: center;
 }
+
+

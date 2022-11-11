@@ -4,6 +4,7 @@ import { waterFallPhotos } from '../Photos-Data/Photos';
 import './VictoriaWaterFalls.css';
 
 function VictoriaWaterFalls() {
+    const sectionCommentName = "victoriaWaterFalls";
     return (
         <section className='victoriaWaterfalls'>
             <h2>Zimbaue</h2>
@@ -24,7 +25,7 @@ function VictoriaWaterFalls() {
             {/* <iframe></iframe> */}
             <h3 id='victoriaWaterfallsGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={waterFallPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
 
         </section>
     )

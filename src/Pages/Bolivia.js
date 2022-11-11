@@ -4,6 +4,7 @@ import { boliviaPhotos } from '../Photos-Data/Photos';
 import './Bolivia.css';
 
 function Bolivia() {
+    const sectionCommentName = "bolivia";
     return (
         <section className='bolivia'>
             <h2>Bolivia</h2>
@@ -97,7 +98,7 @@ function Bolivia() {
 
             <h3 id='paraguayGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={boliviaPhotos} />
-            <Comments />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }
