@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom';
 import { gardenRoutePhotos } from '../Photos-Data/Photos';
 import './GardenRoute.css';
 import GalleryComponent from "../Components/GalleryComponent";
+import Comments from '../Components/Comments';
 
 function GardenRoute() {
+    const sectionCommentName = "gardenRoute";
     return (
         <section className='gardenRoute'>
             <h2>Ruta Jardín</h2>
@@ -38,6 +40,7 @@ function GardenRoute() {
             <p>De noche, rugidos en la lejanía de leones enjaulados acompañaban un inmenso cielo estrellado. Desde allí crucé la frontera hasta mi primer destino en Botsuana, <Link to='/mytrips/southafrica/botsuana/gaborone'>Gaborone</Link>.</p>
             <h3 id='galleryGardenRouteBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={gardenRoutePhotos} />
+            <Comments sectionCommentName={sectionCommentName} />
         </section >
     )
 }

@@ -1,6 +1,5 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Header from './Components/Header';
 import Footer from './Components/Footer';
 import WhoIAm from './Pages/WhoIAm';
 import WhatIDo from './Pages/WhatIDo';
@@ -11,8 +10,6 @@ import Contact from './Pages/Contact';
 import AsideLinks from './Components/AsideLinks';
 import SouthAfricaArrangements from './Pages/SouthAfricaArrangements';
 import CapeTown from './Pages/CapeTown';
-import { mauritaniaPhotos } from './Photos-Data/Photos'
-import GalleryComponent from './Components/GalleryComponent';
 import GardenRoute from './Pages/GardenRoute';
 import Addo from './Pages/Addo';
 import Gaborone from './Pages/Gaborone';
@@ -44,6 +41,7 @@ import Netherlands from './Pages/Netherlands';
 import Italy from './Pages/Italy';
 import Spain from './Pages/Spain';
 import ResponsiveHeader from './Components/ResponsiveHeader';
+import Mauritania from './Pages/Mauritania';
 
 function App() {
   return (
@@ -52,7 +50,7 @@ function App() {
       <Routes>
         <Route path='/' element={<WhoIAm />} />
         <Route path='/whatido' element={<WhatIDo />} />
-        <Route path='/mytrips/mauritania' element={<GalleryComponent arrayPhotos={mauritaniaPhotos} />} />
+        <Route path='/mytrips/mauritania' element={<Mauritania />} />
         <Route path='/mytrips/southafrica' element={<AfricaSur />} />
         <Route path='/mytrips/southafrica/arragement' element={<SouthAfricaArrangements />} />
         <Route path='/mytrips/southafrica/southafrica' element={<SouthAfrica />} />

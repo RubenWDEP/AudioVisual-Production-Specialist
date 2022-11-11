@@ -1,8 +1,10 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { otjwarongoPhotos } from '../Photos-Data/Photos';
 import './Otjwarongo.css';
 
 function Otjwarongo() {
+    const sectionCommentName = "otjwarongo";
     return (
         <section className='otjwarongo'>
             <h2>Otjwarongo</h2>
@@ -16,11 +18,9 @@ function Otjwarongo() {
             <img src='https://laemancipaciondelvertigo.files.wordpress.com/2018/08/otjiwarongo-12.jpg' alt='Otjiwarongo' />
             <p>Los fondos provienen de donaciones y de ventas de artesanía africana, que financian los costes de la construcción y el mantenimiento de la escuela y la biblioteca. Si quieres aportar tu granito a que este proyecto siga creciendo puedes hacerlo <a href='https://peri-naua.com/' target='_blank' rel='noreferrer'>aquí</a>.</p>
             <img src='https://laemancipaciondelvertigo.files.wordpress.com/2018/08/otjiwarongo-23.jpg' alt='Otjiwarongo' />
-
-
-
             <h3 id='otjwarongoGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={otjwarongoPhotos} />
+            <Comments sectionCommentName={sectionCommentName} />
 
 
         </section>

@@ -1,8 +1,10 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { swakopmundPhotos } from '../Photos-Data/Photos';
 import './Swakopmund.css';
 
 function Swakopmund() {
+    const sectionCommentName = "swakopmund";
     return (
         <section className='swakopmund'>
             <h2>Swakopmund</h2>
@@ -33,6 +35,7 @@ function Swakopmund() {
 
             <h3 id='swakopmundGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={swakopmundPhotos} />
+            <Comments sectionCommentName={sectionCommentName} />
 
         </section>
     )

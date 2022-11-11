@@ -1,8 +1,10 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { windhoekPhotos } from '../Photos-Data/Photos';
 import './Windhoek.css';
 
 function Windhoek() {
+    const sectionCommentName = "windhoek";
     return (
         <section className='windhoek'>
             <h2>Windhoek</h2>
@@ -34,6 +36,7 @@ function Windhoek() {
 
             <h3 id='windhoekGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={windhoekPhotos} />
+            <Comments sectionCommentName={sectionCommentName} />
 
         </section>
     )

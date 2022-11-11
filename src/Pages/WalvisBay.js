@@ -1,8 +1,10 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { walvisBayPhotos } from '../Photos-Data/Photos';
 import './WalvisBay.css';
 
 function WalvisBay() {
+    const sectionCommentName = "walvisBay";
     return (
         <section className='walvisBay'>
             <h2>Walvis Bay</h2>
@@ -48,6 +50,7 @@ function WalvisBay() {
             <p>Pasé mi último día paseando por el pequeño centro del pueblo y recorriendo los locales de artesanía local. Aprovecho y envío tres cartas que junto a los sellos me salen sólo a 57$ (3,5€).</p>
             <h3 id='walvisBayGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={walvisBayPhotos} />
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }

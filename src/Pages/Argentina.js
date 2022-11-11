@@ -1,8 +1,10 @@
+import Comments from '../Components/Comments';
 import GalleryComponent from '../Components/GalleryComponent';
 import { argentinaPhotos } from '../Photos-Data/Photos';
 import './Argentina.css';
 
 function Argentina() {
+    const sectionCommentName = "argentina";
     return (
         <section className='argentina'>
             <h2>Argentina</h2>
@@ -53,11 +55,7 @@ function Argentina() {
 
             <h3 id='argentinaGalleryBelow'>Galería de imágenes</h3>
             <GalleryComponent arrayPhotos={argentinaPhotos} />
-
-
-
-
-
+            <Comments sectionCommentName={sectionCommentName} />
         </section>
     )
 }
